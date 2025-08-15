@@ -49,7 +49,7 @@
 
 运行测试函数后得到以下输出：
 
-![6](C:\Users\31858\Desktop\6.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project6/6.png)
 
 ### 3.1 运行结果分析
 
@@ -107,3 +107,4 @@
 3. 实践了多方安全计算协议的具体实现
 
 本实验成功实现了论文描述的协议，验证了其正确性和可行性。
+
