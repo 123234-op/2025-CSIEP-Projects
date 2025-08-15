@@ -74,13 +74,13 @@ RFC6962定义了用于证书透明度的Merkle树结构，特点包括：
 
 通过`SM3.cpp`的性能测试得到：
 
-![4-1](C:\Users\31858\Desktop\4-1.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project4/4-1.png)
 
 ### 3.2 长度扩展攻击验证结果
 
 `Length Extension Attack.py`运行结果：
 
-![4-2](C:\Users\31858\Desktop\4-2.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project4/4-2.png)
 
 攻击成功验证：
 
@@ -93,7 +93,7 @@ RFC6962定义了用于证书透明度的Merkle树结构，特点包括：
 
 `RFC6962 Merkle.py`运行结果示例：
 
-![4-3](C:\Users\31858\Desktop\4-3.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project4/4-3.png)
 
 结果分析：
 
@@ -107,4 +107,5 @@ RFC6962定义了用于证书透明度的Merkle树结构，特点包括：
 1. **SM3优化**：通过内联函数、循环展开、内存对齐等技术，将SM3的性能提升
 2. **长度扩展攻击**：验证了SM3作为Merkle-Damgård结构的哈希算法确实存在长度扩展攻击漏洞，在实际应用中，应使用HMAC或类似技术来防止此类攻击。
 3. **Merkle树**：成功构建了包含10万叶子节点的大规模Merkle树，并实现了存在性和不存在性证明，验证了RFC6962标准的可行性。Merkle树在数据完整性验证方面有重要应用价值。
+
 
