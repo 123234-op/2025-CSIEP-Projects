@@ -219,7 +219,7 @@ GHASH(H, A, C) = (A*H) ⊕ (C*H) ⊕ (L*H)
 
 ### sm4 AES-NI
 
-![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project1/SM4-AESNI.cpp)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project1/1-SM4-AESNI.png)
 
 ### sm4-GCM
 
@@ -259,4 +259,5 @@ GHASH(H, A, C) = (A*H) ⊕ (C*H) ⊕ (L*H)
 4. **安全性考虑**：所有优化均保持了算法的安全性，没有因性能优化而降低安全强度。
 
 ### 
+
 
