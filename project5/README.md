@@ -103,7 +103,7 @@ ECDSA/SM2签名算法在某些情况下可以被伪造，特别是在验证过�
 
 运行SM2.py得到优化对比结果：
 
-![5-1](C:\Users\31858\Desktop\5-1.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project5/5-1.png)
 
 - **密钥生成**：成功生成了有效的私钥和公钥对
 - **签名验证**：
@@ -140,7 +140,7 @@ ECDSA/SM2签名算法在某些情况下可以被伪造，特别是在验证过�
 
 运行SM2-poc.py得到签名误用验证结果：
 
-![5-2](C:\Users\31858\Desktop\5-2.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project5/5-2.png)
 
 所有签名误用场景均成功验证，能够恢复出原始私钥。
 
@@ -148,7 +148,7 @@ ECDSA/SM2签名算法在某些情况下可以被伪造，特别是在验证过�
 
 运行Satoshi-signature-forgery.py得到签名伪造结果（因原参数较大，超出本机运算效能，因此改用小参数）：
 
-![5-3](C:\Users\31858\Desktop\5-3.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project5/5-3.png)
 
 演示了如何构造有效的伪造签名，与真实签名对比显示伪造签名可以通过验证。
 
@@ -159,4 +159,5 @@ ECDSA/SM2签名算法在某些情况下可以被伪造，特别是在验证过�
 3. **签名验证**：签名验证过程必须严格检查所有参数，否则可能被伪造。RFC 6979提出的确定性k值生成是防止k值相关攻击的有效方案。
 
 本实验完整实现了SM2基础算法，验证了PPT中提到的签名误用场景，并演示了签名伪造的可能性。
+
 
