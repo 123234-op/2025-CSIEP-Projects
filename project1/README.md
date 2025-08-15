@@ -211,19 +211,19 @@ GHASH(H, A, C) = (A*H) ⊕ (C*H) ⊕ (L*H)
 
 ### sm4基本实现
 
-![1-SM4](C:\Users\31858\Desktop\1-SM4.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project1/1-SM4.png)
 
 ### sm4 T-table
 
-![1-SM-Ttable](C:\Users\31858\Desktop\1-SM-Ttable.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project1/1-SM-Ttable.png)
 
 ### sm4 AES-NI
 
-![1-SM4-AESNI](C:\Users\31858\Desktop\1-SM4-AESNI.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project1/SM4-AESNI.cpp)
 
 ### sm4-GCM
 
-![1-SM4-GCM](C:\Users\31858\Desktop\1-SM4-GCM.png)
+![image](https://github.com/123234-op/2025-CSIEP-Projects/blob/main/project1/1-SM4-GCM.png)
 
 ### 3.1 功能正确性验证
 
@@ -259,3 +259,4 @@ GHASH(H, A, C) = (A*H) ⊕ (C*H) ⊕ (L*H)
 4. **安全性考虑**：所有优化均保持了算法的安全性，没有因性能优化而降低安全强度。
 
 ### 
+
